@@ -12,8 +12,7 @@ import {
   PlusCircleIcon, 
   CurrencyDollarIcon, 
   Bars3Icon, 
-  XMarkIcon,
-  SparklesIcon
+  XMarkIcon 
 } from '@heroicons/react/24/outline';
 
 function App() {
