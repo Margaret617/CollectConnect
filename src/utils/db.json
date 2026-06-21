@@ -1,0 +1,45 @@
+{
+  "members": [
+    { "id": 1, "name": "Jane Muthoni", "phone": "0712345678", "email": "jane@email.com", "family": "Muthoni" },
+    { "id": 2, "name": "Peter Ochieng", "phone": "0723456789", "email": "peter@email.com", "family": "Ochieng" },
+    { "id": 3, "name": "Mary Wanjiru", "phone": "0734567890", "email": "mary@email.com", "family": "Wanjiru" },
+    { "id": 4, "name": "James Kariuki", "phone": "0745678901", "email": "james@email.com", "family": "Kariuki" }
+  ],
+  "contribution_requests": [
+    {
+      "id": 1,
+      "title": "Funeral - Brenda",
+      "description": "Brenda passed away. We're raising funds for the funeral.",
+      "target_person": "Brenda",
+      "amount_per_member": 1100,
+      "total_expected": 4400,
+      "status": "active",
+      "created_date": "2026-06-20",
+      "deadline": "2026-06-30"
+    },
+    {
+      "id": 2,
+      "title": "Medical - Sarah's Surgery",
+      "description": "Sarah needs urgent surgery. Please contribute whatever you can.",
+      "target_person": "Sarah",
+      "amount_per_member": 2000,
+      "total_expected": 8000,
+      "status": "active",
+      "created_date": "2026-06-15",
+      "deadline": "2026-07-15"
+    }
+  ],
+  "member_contributions": [
+    { "id": 1, "requestId": 1, "memberId": 1, "amount_paid": 1100, "status": "paid" },
+    { "id": 2, "requestId": 1, "memberId": 2, "amount_paid": 500, "status": "partial" },
+    { "id": 3, "requestId": 1, "memberId": 3, "amount_paid": 0, "status": "pending" },
+    { "id": 4, "requestId": 1, "memberId": 4, "amount_paid": 0, "status": "pending" },
+    { "id": 5, "requestId": 2, "memberId": 1, "amount_paid": 1000, "status": "partial" },
+    { "id": 6, "requestId": 2, "memberId": 2, "amount_paid": 0, "status": "pending" },
+    { "id": 7, "requestId": 2, "memberId": 3, "amount_paid": 2000, "status": "paid" },
+    { "id": 8, "requestId": 2, "memberId": 4, "amount_paid": 0, "status": "pending" }
+  ],
+  "users": [
+    { "id": 1, "email": "treasurer@chama.com", "password": "admin123", "role": "admin" }
+  ]
+}
